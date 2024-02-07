@@ -20,6 +20,7 @@ export default navbar([
       
       { text: "git_教程", icon: "pen-to-square", link: "git_use" },
       { text: "大前端", icon: "pen-to-square", link: "大前端" },
+      { text: "网络编程", icon: "pen-to-square", link: "web_coding" },
       // "tomato",
       // "strawberry",
     ],
