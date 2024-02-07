@@ -7,6 +7,7 @@ tag:
   - 网络编程
 star: true
 ---
+
 # 网络编程
 
 ## 1.1、概述
@@ -148,13 +149,13 @@ public class TestInetAddress {
 
    - 动态、私有：49152~65535
 
-     ```BASH
+     ```bash
      netstat -ano #查看所有的端口
      netstat -ano|findstr "5900"   #|管道过滤，先查后面再带入前面····该命令是查看指定的端口
      tasklist|findstr "8696" #查看指定端口的进程
      ```
 
-```JAVA
+```java
 package com.xiaoke.lesson;
 
 import java.net.InetSocketAddress;
@@ -294,7 +295,7 @@ public class TcpClientDemo01 {
 2. 等待用户的连接 accept
 3. 接受用户的信息
 
-```JAVA
+```java
 package com.xiaoke.lesson02;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -374,7 +375,7 @@ public class TcpServerDemo01 {
 
 TcpClientDemo
 
-```JAVA
+```java
 package com.xiaoke.lesson02;
 import java.io.*;
 import java.net.InetAddress;
